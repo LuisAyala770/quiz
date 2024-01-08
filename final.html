@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Game Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <img src="img/auris.png" alt="" class="img">
+        <header>
+            <div class="puntaje">
+                <img src="img/puntos.png" alt="" >
+                <span class="puntos">0</span>
+            </div>
+            <div class="jugador">
+                <span class="nombre"> - </span>
+                <img src="img/user.png" alt="">
+            </div>
+        </header>
+        <!--Pantall Final-->
+        <main class="final">
+            <h2>Quiz Finalizado</h2>
+            <div class="medalla">
+                <img src="img/medalla.png" alt="">
+                <h3 class="nombre" id="nombre-jugador"></h3>
+            </div>
+            <span class="puntaje-final" id="puntaje-final">10000 Puntos</span>
+            <h2>Acertados: <span class="final-score" id="total-acertadas">20</span></h2>
+            <h2>Incorrectas <span class="final-score" id="total-no-acertadas">10</span></h2>
+            
+            <button class="btn" id="btn-comenzar">Comenzar de nuevo</button>
+        </main>
+    </div>
+    
+</body>
+</html>
