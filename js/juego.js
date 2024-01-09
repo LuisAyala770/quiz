@@ -222,12 +222,12 @@ const preguntas = [
     {
         id: 23,
         categoria: "teselia",
-        titulo: "¿Cual de los siguientes Pokemons NO pertenece a los iniciales de Teselia?",
-        opcionA: "Oshawott",
-        opcionB: "Tepig",
-        opcionC: "Fennekin",
-        opcionD: "Snivy",
-        correcta: "c",
+        titulo: "¿Cual es la habilidad oculta de Golurk?",
+        opcionA: "Bromista",
+        opcionB: "Liviano",
+        opcionC: "Presión",
+        opcionD: "Indefenso",
+        correcta: "d",
     },
     {
         id: 24,
@@ -297,7 +297,7 @@ const preguntas = [
         opcionB: "Piedra Agua",
         opcionC: "Nivel 30 + consola de cabeza",
         opcionD: "Isla espuma + 1 nivel",
-        correcta: "d",
+        correcta: "c",
     }
 ]
 
